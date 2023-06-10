@@ -1,6 +1,6 @@
 {
   "name": "witting",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A minimal single-file library for state management.",
   "main": "./lib/main.js",
   "types": "./lib/main.d.ts",
