@@ -1,0 +1,24 @@
+{
+  "name": "witting",
+  "version": "1.0.0",
+  "description": "A minimal single-file library for state management.",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "scripts": {
+    "test": "mocha ./lib/test",
+    "compile": "npx tsc",
+    "build": "npx tsc && mocha ./lib/test"
+  },
+  "keywords": [
+    "state"
+  ],
+  "author": "Sai Aung Kyaw Htet <aungkyawhtet.social@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.2.5",
+    "mocha": "^10.2.0",
+    "should": "^13.2.3",
+    "typescript": "^5.1.3"
+  }
+}
